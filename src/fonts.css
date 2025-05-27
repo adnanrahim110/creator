@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Black-AF65ddb1364d268.otf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Bold-AF65ddb136479f5.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Med-AF65ddb1363a7f1.otf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Stand-AF65ddb1362cc3f.otf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Reg-AF65ddb136339e6.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Light-AF65ddb13640c00.otf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titling-gothic-fb";
+  src: url(/public/fonts/TitlingGothicFBWide-Thin-AF65ddb13625152.otf);
+  font-weight: 200;
+  font-style: normal;
+}

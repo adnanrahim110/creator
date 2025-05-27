@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-lora: "Lora", serif;
+  --font-mulish: "Mulish", sans-serif;
+  --font-gothic: "titling-gothic-fb";
+
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-mulish bg-black;
+  }
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    @apply font-lora;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply min-h-fit outline-none border border-white bg-white text-black w-fit transition-all duration-300 py-4 px-8 cursor-pointer select-none;
+  }
+
+  .btn p {
+    @apply font-gothic font-medium text-[9px] leading-[13px] uppercase text-inherit whitespace-nowrap lg:text-[9px] lg:leading-[13px];
+  }
+
+  .animate-marquee {
+    animation: 60s linear 0s infinite normal none running marquee;
+  }
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,14 @@
+export { default as arrow_left } from './images/arrow_left.svg';
+export { default as cinematic_1 } from './images/cinematic/1.avif';
+export { default as cinematic_2 } from './images/cinematic/2.avif';
+export { default as cost_check } from './images/cost_check.avif';
+export { default as home_hero } from './images/home-hero.avif';
+export { default as offering_0 } from './images/offering/0.avif';
+export { default as offering_1 } from './images/offering/1.avif';
+export { default as offering_2 } from './images/offering/2.webp';
+export { default as offering_3 } from './images/offering/3.avif';
+export { default as offering_4 } from './images/offering/4.avif';
+export { default as offering_5 } from './images/offering/5.avif';
+export { default as offering_6 } from './images/offering/6.avif';
+export { default as offering_7 } from './images/offering/7.avif';
+export { default as offering_8 } from './images/offering/8.avif';
