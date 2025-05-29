@@ -13,7 +13,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className="grid min-[834px]:grid-cols-[max-content_1fr_max-content] w-full gap-8 items-center grid-cols-2">
-            <Button href="/signIn">sign up now</Button>
+            <Button href="/about-us">Learn more</Button>
           </div>
         </div>
         <div className="absolute left-1/2 z-[2] pb-4 flex-row gap-2 flex justify-start items-start w-auto h-auto lg:bottom-[calc(-16px_+_20vh)] lg:pb-6">
@@ -23,15 +23,11 @@ const Hero = () => {
           <div className="relative w-full z-[2]">
             <div className="absolute left-0 bottom-0">
               <p className="min-[834px]:whitespace-pre-line lg:text-[13px] lg:leading-5 text-[11px] leading-4 text-left text-white max-w-[500px]">
-                Create, order and sell custom merch, accessories and print on
-                demand apparel using industry-leading fashion blanks, with no
-                minimum order quantity.
+                Create, order and sell custom merch with market-leading
+                minimum order quantity
               </p>
             </div>
           </div>
-          <span className="relative z-[2] font-gothic font-medium text-[9px] text-left wrap-anywhere [text-wrap:nowrap_balance] leading-[13px] text-white select-none lg:leading-normal uppercase">
-            empowered by h&m group
-          </span>
         </div>
         <div className="absolute inset-0 z-0">
           <img

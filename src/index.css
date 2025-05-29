@@ -30,6 +30,10 @@
     @apply min-h-fit outline-none border border-white bg-white text-black w-fit transition-all duration-300 py-4 px-8 cursor-pointer select-none;
   }
 
+  .btn.btn_2 {
+    @apply border-black bg-black text-white hover:text-black hover:bg-transparent
+  }
+
   .btn p {
     @apply font-gothic font-medium text-[9px] leading-[13px] uppercase text-inherit whitespace-nowrap lg:text-[9px] lg:leading-[13px];
   }
@@ -48,4 +52,12 @@
   to {
     transform: translate3d(0, 0, 0);
   }
+}
+
+.glry_slider .swiper {
+  overflow: clip !important;
+}
+
+.glry_slider .swiper-wrapper {
+  transition-timing-function: linear !important;
 }

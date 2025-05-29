@@ -18,17 +18,6 @@ const Header = () => {
               Services
             </span>
           </div>
-          <div className="flex gap-2 justify-start items-start flex-row w-auto h-auto">
-            <Link className={`min-[834px]:cursor-pointer ${commonClasses}`}>
-              Sign up
-            </Link>
-            <span className="lg:text-[28px] lg:leading-7 relative decoration-0 text-white text-nowrap pb-2 font-normal text-xl leading-6">
-              /
-            </span>
-            <Link className={`min-[834px]:cursor-pointer ${commonClasses}`}>
-              Sign in
-            </Link>
-          </div>
         </div>
       </header>
       <button

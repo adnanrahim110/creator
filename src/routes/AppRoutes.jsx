@@ -5,7 +5,6 @@ const Home = lazy(() => import("../pages/Home"));
 const Service = lazy(() => import("../pages/Service"));
 const Techniques = lazy(() => import("../pages/Techniques"));
 const Technique = lazy(() => import("../pages/Technique"));
-const SignIn = lazy(() => import("../pages/SignIn"));
 const WhoAreYou = lazy(() => import("../pages/WhoAreYou"));
 const Responsibility = lazy(() => import("../pages/Responsibility"));
 const NotFound = lazy(() => import("../pages/NotFound"));
@@ -21,7 +20,6 @@ const AppRoutes = () => {
         <Route path="/services/:service" element={<Service />} />
         <Route path="/techniques" element={<Techniques />} />
         <Route path="/techniques/:technique" element={<Technique />} />
-        <Route path="/:auth" element={<SignIn />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

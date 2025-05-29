@@ -21,6 +21,7 @@ const Button = ({
     ? `btn ${className} ${activeClass}`
     : `btn ${activeClass}`;
   const BtnIcon = icon;
+
   const renderButton = () => (
     <button
       onClick={onClick}
